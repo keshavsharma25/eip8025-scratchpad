@@ -14,7 +14,7 @@ sequenceDiagram
     participant W2 as Stage-2 engine worker
 
     P->>W1: Deliver signed proof X
-    W1->>S: Read S0; ordered prechecks, authenticate, bind
+    W1->>S: Read S0; run ordered prechecks then authenticate then bind
     S-->>W1: Prepared X + bound input + context identity
     Note over W1,M: S0 can become old immediately; a worker cannot update live Seen.
     W1->>M: ClaimRequest(X, root R, prover key K, context)
