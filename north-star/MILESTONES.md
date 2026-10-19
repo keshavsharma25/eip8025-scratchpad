@@ -8,7 +8,7 @@
 
 **Demonstration:** recorded lifecycle/context/retention/concurrency choices and code-supported invariants. No runtime prototype claim.
 
-**Gate:** finish the current [PR2 decision discussion](../execution-proof-pr2-master-update/DECISIONS.md) one choice at a time. Do not use the north star to bypass unsettled store semantics.
+**Gate:**  -
 
 ## M1 — tested preparation/store transitions
 
