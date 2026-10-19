@@ -69,13 +69,3 @@ The selected baseline remains master authentication/gossip order plus PR18’s d
 - A generalized token/recovery framework or production-scale hardening in the first prototype.
 
 Correctness, bounded network admission and honest failure classification are still prototype requirements, not optional production extras.
-
-## Evidence and related planning
-
-- [PR2 decision sheet](../execution-proof-pr2-master-update/DECISIONS.md).
-- [PR2 draft design](../execution-proof-pr2-master-update/0004-pr2-master-design-draft.md).
-- [PR1/master evidence and action map](../execution-proof-pr2-master-update/README.md).
-- [Prysm comparison and limitations](../execution-proof-pr2-master-update/PRYSM-PR2-EVIDENCE.md).
-- [Independent SSZ-vector follow-up](../eip8025-ssz-vectors/README.md).
-
-Unchecked backlog items are potential remaining work, not proof that a chosen implementation must use every mechanism named. Record evidence when completing an item; do not check it solely because a helper, interface or test name exists.
