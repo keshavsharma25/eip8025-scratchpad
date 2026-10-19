@@ -14,8 +14,6 @@ This is a **verifier-side optional-proof prototype**. Proof generation is extern
 - **[TODO.md](TODO.md):** full remaining implementation and evidence checklist, with completion criteria.
 - **[MILESTONES.md](MILESTONES.md):** dependency order, demonstrable milestones and the conditional one-week target.
 
-This folder tracks the destination beyond PR2. It does **not** expand PR2 to include every item. Continue the current decision discussion in [PR2 DECISIONS.md](../execution-proof-pr2-master-update/DECISIONS.md), one decision at a time.
-
 ## System map
 
 ```text
