@@ -68,7 +68,7 @@ Relevant surface: `grandine/proof_engine/` and its startup/caller integration.
 - [ ] Pin network/fork/config, selected SSZ revisions, proof type, guest version, verification key and proof-byte format.
 - [ ] Verify how the backend/guest commits public input and reconcile it with our intended boundary. Any change to the selected contract needs an explicit design decision.
 - [ ] Obtain independently sourced payload-derived request/public-input roots for our selected target.
-- [ ] Generate/check encoding, decoding and roots through the [separate vector workstream](../eip8025-ssz-vectors/README.md).
+- [ ] Generate/check encoding, decoding and roots through the separate vector workstream.
 - [ ] Obtain a genuine proof plus all context needed to reconstruct its statement.
 - [ ] Prove that external producer and Grandine derive the same statement; do not use Prysm’s different outer-container root as our oracle.
 - [ ] Add negative fixtures for altered proof and mismatched payload/public input.
